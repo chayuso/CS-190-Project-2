@@ -15,14 +15,14 @@ Platform assembly: C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190
 Loading C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.269 seconds
+- Completed reload, in  0.107 seconds
 Platform assembly: C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 59Hz; virtual: 5120x1080 at -1280,0
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 18.550144 ms
+UnloadTime: 1.321547 ms
 WwiseUnity: Initialize sound engine ...
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -36,7 +36,7 @@ WwiseUnity: Could not locate the SoundBanks. Did you make sure to copy them to t
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 22c0 -> priority: 1 
-  Thread -> id: 4858 -> priority: 1 
-  Thread -> id: 44d8 -> priority: 1 
-  Thread -> id: 3770 -> priority: 1 
+  Thread -> id: 2188 -> priority: 1 
+  Thread -> id: df8 -> priority: 1 
+  Thread -> id: 1fdc -> priority: 1 
+  Thread -> id: 2124 -> priority: 1 
