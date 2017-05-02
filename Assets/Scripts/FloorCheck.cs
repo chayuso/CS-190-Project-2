@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FloorCheck : MonoBehaviour {
     public GameState GS;
+    public PlayerControl MovementController;
     public string check = "None";
     void OnTriggerEnter(Collider colName)
     {

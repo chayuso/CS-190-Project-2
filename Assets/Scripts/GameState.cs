@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class GameState : MonoBehaviour {
     public bool canJump = true;
-
+    public PlayerControl MovementController;
+    void FixedUpdate()
+    {
+        MovementController.ASM1.SetBool("InAir",!canJump);
+    }
 }

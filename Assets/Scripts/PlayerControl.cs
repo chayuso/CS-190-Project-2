@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour {
     public Rigidbody P1RB;
     public GameObject Person;
-    //////////////////////////////////////////public Animator ASM1;
+    public Animator ASM1;
     public float Player1Accel;
     public float rotateSpeed;
     private string Direction;
@@ -36,7 +36,7 @@ public class PlayerControl : MonoBehaviour {
 
             if ((Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.RightArrow)))
             {
-                //////////////////////////////////ASM1.SetBool("Forward", false);
+                ASM1.SetBool("Walking", false);
             }
             if (!(Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.RightArrow)))
             {
@@ -47,12 +47,12 @@ public class PlayerControl : MonoBehaviour {
             {
                 if (Input.GetKey(KeyCode.LeftShift)|| Input.GetKey(KeyCode.RightShift))
                 {
-                    ////////////////////////////ASM1.SetBool("Sprint", true);
+                    ASM1.SetBool("Running", true);
                     x = x * 2;
                 }
                 else
                 {
-                    /////////////////////////////ASM1.SetBool("Sprint", false);
+                    ASM1.SetBool("Running", false);
                 }
                 if (!(Input.GetKey(KeyCode.D) 
                 || Input.GetKey(KeyCode.A)))
@@ -76,20 +76,21 @@ public class PlayerControl : MonoBehaviour {
             {
                 P1RB.AddRelativeForce(transform.up * 6, ForceMode.Impulse);
                 GameState.canJump = false;
+                ASM1.SetTrigger("Jump");
             }
         }
         if (Input.GetKey(KeyCode.LeftArrow)|| Input.GetKey(KeyCode.RightArrow))
         {
             if (!(Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.RightArrow)))
             { 
-                ////////////////////////ASM1.SetBool("Forward", true);
+                ASM1.SetBool("Walking", true);
             }
         }
         else
         {
             if (!(Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.RightArrow)))
             {
-                /////////////////////////////ASM1.SetBool("Forward", false);
+                ASM1.SetBool("Walking", false);
             }
         }      
         if (Direction == "forward" && Input.GetKey(KeyCode.LeftArrow))
