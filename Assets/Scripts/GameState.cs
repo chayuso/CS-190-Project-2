@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameState : MonoBehaviour {
     public bool canJump = true;
+    public bool jumpThroughPlat = true;
     public PlayerControl MovementController;
     void FixedUpdate()
     {
