@@ -15,14 +15,14 @@ Platform assembly: C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190
 Loading C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.029 seconds
+- Completed reload, in  0.046 seconds
 Platform assembly: C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 59Hz; virtual: 5120x1080 at -1280,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 26.448645 ms
+UnloadTime: 23.457811 ms
 WwiseUnity: Initialize sound engine ...
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -36,21 +36,28 @@ WwiseUnity: Could not locate the SoundBanks. Did you make sure to copy them to t
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 5244 -> priority: 1 
-  Thread -> id: 4f78 -> priority: 1 
-  Thread -> id: 4da4 -> priority: 1 
-  Thread -> id: 47a0 -> priority: 1 
+  Thread -> id: 1e90 -> priority: 1 
+  Thread -> id: 4a6c -> priority: 1 
+  Thread -> id: 1d9c -> priority: 1 
+  Thread -> id: 618 -> priority: 1 
 ArgumentOutOfRangeException: startIndex + length > this.length
 Parameter name: length
   at System.String.Substring (Int32 startIndex, Int32 length) [0x00000] in <filename unknown>:0 
-  at Respawn.OnTriggerEnter (UnityEngine.Collider col) [0x00000] in <filename unknown>:0 
+  at WaterPlatform.OnTriggerEnter (UnityEngine.Collider col) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 ArgumentOutOfRangeException: startIndex + length > this.length
 Parameter name: length
   at System.String.Substring (Int32 startIndex, Int32 length) [0x00000] in <filename unknown>:0 
-  at Respawn.OnTriggerEnter (UnityEngine.Collider col) [0x00000] in <filename unknown>:0 
+  at WaterPlatform.OnTriggerEnter (UnityEngine.Collider col) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: startIndex + length > this.length
+Parameter name: length
+  at System.String.Substring (Int32 startIndex, Int32 length) [0x00000] in <filename unknown>:0 
+  at WaterPlatform.OnTriggerEnter (UnityEngine.Collider col) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 

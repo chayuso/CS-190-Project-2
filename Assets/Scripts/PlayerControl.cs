@@ -15,7 +15,7 @@ public class PlayerControl : MonoBehaviour {
     private Quaternion initRotation;
     private Quaternion targetRotation;
     private float x;
-    private float lastY;
+
     private GameState GameState;
     void Start()
     {
@@ -26,7 +26,7 @@ public class PlayerControl : MonoBehaviour {
 
         targetRotation = initRotation;
         target.transform.rotation = targetRotation;
-        lastY = P1RB.transform.position.y;
+
     }
 
     void Update()
