@@ -14,7 +14,7 @@ public class PlayerControl : MonoBehaviour {
     public GameObject target;
     private Quaternion initRotation;
     private Quaternion targetRotation;
-    private float x;
+    public float x;
 
     private GameState GameState;
     void Start()
