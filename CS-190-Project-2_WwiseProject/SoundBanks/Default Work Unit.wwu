@@ -8,6 +8,7 @@
 						<ObjectRef Name="Laughing_Pointing" ID="{AEFE1C6F-76A2-4619-94FB-A67AA5DF0098}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Seagulls_Start" ID="{68E8CC45-79BD-4881-8501-62D0CDB91F9B}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Seagulls_Stop" ID="{E68140FD-466A-4C4A-9A56-170BEA71CF97}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Submerge" ID="{54B954E2-E76C-4EA9-A530-8EAC0B0B8679}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
