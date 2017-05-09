@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -20,6 +20,15 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="104848027" Language="SFX">
+					<ShortName>CRWD_Crowd, Children_BAS03_01_01.wav</ShortName>
+					<Path>SFX\CRWD_Crowd, Children_BAS03_01_01_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

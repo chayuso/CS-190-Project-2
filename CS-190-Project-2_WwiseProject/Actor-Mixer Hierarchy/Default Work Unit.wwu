@@ -574,6 +574,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="WaterOcean 6070_08" ID="{E317E9D8-5EE6-48F5-8B81-984D71AD092F}" ShortID="672063181" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>

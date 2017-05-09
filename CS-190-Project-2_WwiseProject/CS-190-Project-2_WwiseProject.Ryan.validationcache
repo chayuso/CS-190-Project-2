@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2313821435" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="2313846499" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="2313856528" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="2313931727" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="2313946766" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="2313956794" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\CS-190-Project-2_WwiseProject.wproj" DateLow="2313916691" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2313971837" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Effects\Default Work Unit.wwu" DateLow="2313986872" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Effects\Factory Effects.wwu" DateLow="2314016961" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Events\Default Work Unit.wwu" DateLow="2314026979" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="2314042022" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="2314197434" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2314212473" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="2314227523" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="2314242547" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Presets\Default Work Unit.wwu" DateLow="2314257590" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Queries\Default Work Unit.wwu" DateLow="2314267622" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Queries\Factory Queries.wwu" DateLow="2314277643" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="2314292686" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2314312743" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\States\Default Work Unit.wwu" DateLow="2314332796" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Switches\Default Work Unit.wwu" DateLow="2314347839" DateHigh="30591078"/>
-	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="2314362889" DateHigh="30591078"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4004328434" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="4004770055" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="4004780072" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="4004845662" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="4005116398" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="4005116398" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\CS-190-Project-2_WwiseProject.Ryan.wsettings" DateLow="4004810150" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\CS-190-Project-2_WwiseProject.wproj" DateLow="4004845662" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="4005126401" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Effects\Default Work Unit.wwu" DateLow="4005136429" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Effects\Factory Effects.wwu" DateLow="4005146454" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Events\Default Work Unit.wwu" DateLow="4005156479" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="4005166507" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="4006982673" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4006992709" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="4006992709" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="4007002738" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Presets\Default Work Unit.wwu" DateLow="4038842407" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Queries\Default Work Unit.wwu" DateLow="4038847407" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Queries\Factory Queries.wwu" DateLow="4038857526" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="4038862464" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="4038872474" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\States\Default Work Unit.wwu" DateLow="4038877488" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Switches\Default Work Unit.wwu" DateLow="4038887513" DateHigh="30591242"/>
+	<ValidationCacheItem File="C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="4038892542" DateHigh="30591242"/>
 </ValidationCache>
