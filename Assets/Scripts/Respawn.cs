@@ -41,7 +41,7 @@ public class Respawn : MonoBehaviour {
     }
     void spawnMovingBlock(GameObject spawn)
     {
-        var movingBlock = (GameObject)Instantiate(
+            GameObject.Instantiate(
             BlockPrefab,
             spawn.transform.position,
             spawn.transform.rotation);

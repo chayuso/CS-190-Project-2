@@ -45,7 +45,7 @@ public class WaterPlatform : MonoBehaviour {
     }
     void spawnTopMovingBlock(GameObject spawn)
     {
-        var movingBlock = (GameObject)Instantiate(
+            GameObject.Instantiate(
             TopBlockPrefab,
             spawn.transform.position,
             spawn.transform.rotation);
