@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Laughing_Pointing" ID="{AEFE1C6F-76A2-4619-94FB-A67AA5DF0098}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B866951D-A6A9-489C-89D6-B4E09CFF2F4C}" ShortID="319554839" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{41E947B0-A344-450B-BE1D-657FC439142C}" Global="false">
+									<ObjectRef Name="CRWD_Crowd, Children_BAS03_01_01" ID="{FC466149-590C-479B-A52B-E0DD46446E49}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
