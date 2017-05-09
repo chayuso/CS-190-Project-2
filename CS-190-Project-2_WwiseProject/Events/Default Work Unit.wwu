@@ -16,7 +16,13 @@
 				</Event>
 				<Event Name="Seagulls_Stop" ID="{E68140FD-466A-4C4A-9A56-170BEA71CF97}">
 					<ChildrenList>
-						<Action Name="Stop All" ID="{F72ADC58-A4B8-453B-AB6E-C8EB6739A7FA}" ShortID="177200282" Type="Stop" Scope="All" Global="true"/>
+						<Action Name="Stop" ID="{F10DA656-51D9-48C0-BBDE-03739855E57D}" ShortID="485168037" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{C6C3FD13-0577-4697-9EB4-2F8F93DFFC8D}" Global="true">
+									<ObjectRef Name="WaterOcean 6070_08" ID="{E317E9D8-5EE6-48F5-8B81-984D71AD092F}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Seagulls_Start" ID="{68E8CC45-79BD-4881-8501-62D0CDB91F9B}">

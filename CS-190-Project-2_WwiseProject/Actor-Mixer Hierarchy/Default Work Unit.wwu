@@ -119,6 +119,7 @@
 				</Sound>
 				<Sound Name="CRWD_Crowd, Children_BAS03_01_01" ID="{FC466149-590C-479B-A52B-E0DD46446E49}" ShortID="512766408" Type="SoundFX">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
