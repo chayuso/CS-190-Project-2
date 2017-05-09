@@ -94,7 +94,6 @@ public class PlayerControl : MonoBehaviour {
                 P1RB.AddRelativeForce(transform.up * jumpModifier, ForceMode.Impulse);
                 GameState.canJump = false;
                 GameState.jumpThroughPlat = true;
-                ASM1.SetTrigger("Jump");
             }
         }
         if (Input.GetKey(KeyCode.LeftArrow)|| Input.GetKey(KeyCode.RightArrow))

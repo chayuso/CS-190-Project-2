@@ -21,7 +21,7 @@ public class ButtonPress : MonoBehaviour {
     }
     void spawnBlockerBlock(GameObject spawn)
     {
-        var movingBlock = (GameObject)Instantiate(
+        GameObject.Instantiate(
             BlockerPrefab,
             spawn.transform.position,
             spawn.transform.rotation);

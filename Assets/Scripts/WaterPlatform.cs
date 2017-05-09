@@ -24,11 +24,15 @@ public class WaterPlatform : MonoBehaviour {
         {
             inWater = true;
         }
-        if (colenam.Substring(0, 14) == "TopMovingBlock")
+        if (colenam.Length >= 14)
         {
-            Destroy(col.gameObject);
-            spawnTopMovingBlock(TopBlockSpawn);
+            if (colenam.Substring(0, 14) == "TopMovingBlock")
+            {
+                Destroy(col.gameObject);
+                spawnTopMovingBlock(TopBlockSpawn);
+            }
         }
+        
     }
     void OnTriggerExit(Collider col)
     {

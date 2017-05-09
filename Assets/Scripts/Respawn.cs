@@ -30,11 +30,14 @@ public class Respawn : MonoBehaviour {
             Platform2.transform.rotation = Placement2.transform.rotation;
             Platform3.transform.rotation = Placement3.transform.rotation;
         }
-        if (colenam.Substring(0,11) == "MovingBlock")
+        if (colenam.Length >=11)
         {
-            Destroy(col.gameObject);
-            spawnMovingBlock(BlockSpawn);
-        }
+            if (colenam.Substring(0, 11) == "MovingBlock")
+            {
+                Destroy(col.gameObject);
+                spawnMovingBlock(BlockSpawn);
+            }
+        }    
     }
     void spawnMovingBlock(GameObject spawn)
     {
