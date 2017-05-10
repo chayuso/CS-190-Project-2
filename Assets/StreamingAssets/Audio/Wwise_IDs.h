@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID BEACHSHORE = 2770602537U;
         static const AkUniqueID BOXHUM = 3311800026U;
+        static const AkUniqueID BOXHUMSTOP = 2540750466U;
         static const AkUniqueID BUBBLES = 769541046U;
         static const AkUniqueID BUBBLES_STOP = 3315496229U;
         static const AkUniqueID BUTTONPRESS = 317641954U;
@@ -25,7 +26,6 @@ namespace AK
         static const AkUniqueID CREAKRIGHT = 3969533847U;
         static const AkUniqueID DEATH = 779278001U;
         static const AkUniqueID DOORUNLOCK = 1553818165U;
-        static const AkUniqueID KEY_GLOW_STOP = 3832690129U;
         static const AkUniqueID KEYGLOW = 2478083601U;
         static const AkUniqueID LAUGHING_POINTING = 4193801021U;
         static const AkUniqueID RHODES_PIANO = 2900988856U;

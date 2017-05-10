@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -23,6 +23,7 @@
 			<IncludedEvents>
 				<Event Id="2770602537" Name="BeachShore" ObjectPath="\Events\Default Work Unit\BeachShore"/>
 				<Event Id="3311800026" Name="BoxHum" ObjectPath="\Events\Default Work Unit\BoxHum" MaxAttenuation="30.000000"/>
+				<Event Id="2540750466" Name="BoxHumStop" ObjectPath="\Events\Default Work Unit\BoxHumStop" MaxAttenuation="0.000000"/>
 				<Event Id="769541046" Name="Bubbles" ObjectPath="\Events\Default Work Unit\Bubbles"/>
 				<Event Id="3315496229" Name="Bubbles_Stop" ObjectPath="\Events\Default Work Unit\Bubbles_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="317641954" Name="ButtonPress" ObjectPath="\Events\Default Work Unit\ButtonPress"/>
@@ -33,7 +34,6 @@
 				<Event Id="3969533847" Name="CreakRight" ObjectPath="\Events\Default Work Unit\CreakRight" MaxAttenuation="20.000000"/>
 				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death"/>
 				<Event Id="1553818165" Name="DoorUnlock" ObjectPath="\Events\Default Work Unit\DoorUnlock"/>
-				<Event Id="3832690129" Name="Key_Glow_Stop" ObjectPath="\Events\Default Work Unit\Key_Glow_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="2478083601" Name="KeyGlow" ObjectPath="\Events\Default Work Unit\KeyGlow" MaxAttenuation="15.000000"/>
 				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing" MaxAttenuation="38.000000"/>
 				<Event Id="2900988856" Name="Rhodes_Piano" ObjectPath="\Events\Default Work Unit\Rhodes_Piano"/>
@@ -101,10 +101,6 @@
 					<ShortName>159402__noirenex__overheadexplosion.wav</ShortName>
 					<Path>SFX\159402__noirenex__overheadexplosion_9E69E797.wem</Path>
 				</File>
-				<File Id="470035627" Language="SFX">
-					<ShortName>IndustryVentilation 6078_49.wav</ShortName>
-					<Path>SFX\IndustryVentilation 6078_49_4B8CC0C5.wem</Path>
-				</File>
 				<File Id="511201451" Language="SFX">
 					<ShortName>FootstepsDeck 6016_78_3.wav</ShortName>
 					<Path>SFX\FootstepsDeck 6016_78_3_9E69E797.wem</Path>
@@ -120,6 +116,10 @@
 				<File Id="691105329" Language="SFX">
 					<ShortName>Swimming 6057_97_1.wav</ShortName>
 					<Path>SFX\Swimming 6057_97_1_9E69E797.wem</Path>
+				</File>
+				<File Id="729280094" Language="SFX">
+					<ShortName>39048__ls__sparkles.wav</ShortName>
+					<Path>SFX\39048__ls__sparkles_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="799487905" Language="SFX">
 					<ShortName>FootstepsDeck 6016_78_4.wav</ShortName>
