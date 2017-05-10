@@ -21,7 +21,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing" MaxAttenuation="30.000000"/>
+				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing" MaxAttenuation="32.000000"/>
 				<Event Id="1403647256" Name="Seagulls_Start" ObjectPath="\Events\Default Work Unit\Seagulls_Start"/>
 				<Event Id="3236452260" Name="Seagulls_Stop" ObjectPath="\Events\Default Work Unit\Seagulls_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="1740993339" Name="Submerge" ObjectPath="\Events\Default Work Unit\Submerge"/>

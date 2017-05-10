@@ -31,10 +31,10 @@ public class AkAudioListener : MonoBehaviour
         //Update position
         AkSoundEngine.SetListenerPosition(    
 		    transform.forward.x,
-            transform.forward.y, 
+            transform.forward.y,
             transform.forward.z,
 		    transform.up.x,
-            transform.up.y, 
+            transform.up.y,
             transform.up.z,
             transform.position.x, 
             transform.position.y, 
