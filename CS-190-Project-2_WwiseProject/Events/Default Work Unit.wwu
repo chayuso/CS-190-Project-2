@@ -322,6 +322,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Key_Glow_Stop" ID="{62FFC434-FBA8-4D61-9271-595ACE70A271}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{23799990-4D25-4B25-B00C-115A7EC6063A}" ShortID="409458659" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{EB16755B-0BB6-43B3-A82C-8E90013B21A0}" Global="true">
+									<ObjectRef Name="344534__newagesoup__electric-cicadas02" ID="{6E6C3FE2-B20E-473C-AA70-8CBB22234038}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
