@@ -18,14 +18,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	4193801021	Laughing_Pointing			\Default Work Unit\Laughing_Pointing	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	2543201	Swimming 6031_72_2	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Swimming 6031_72_2_1F035067.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swimming 6031_72_2		1512656
-	104848027	CRWD_Crowd, Children_BAS03_01_01	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\CRWD_Crowd, Children_BAS03_01_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRWD_Crowd, Children_BAS03_01_01		1923136
-	129217575	Tuning Fork	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Tuning Fork_E109B45E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tuning Fork		3331796
-	142486641	WTR_Underwater_US03_85_01	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\WTR_Underwater_US03_85_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\WTR_Underwater_US03_85_01		5713984
-	179827128	WaterOcean 6070_08	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\WaterOcean 6070_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterOcean 6070_08		11993152
-	680295749	Intro Rhodes	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Intro Rhodes_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intro Rhodes		2368512
-	691105329	Swimming 6057_97_1	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Swimming 6057_97_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swimming 6057_97_1		553024
-	850040356	Clock	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Clock_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Clock		1606164
-	873380439	WaterUnderwater 6035_42	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\WaterUnderwater 6035_42_5A030355.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterUnderwater 6035_42		1130456
-	933849837	Waves On Mars	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Waves On Mars_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Waves On Mars		4008844
+	2543201	Swimming 6031_72_2	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Swimming 6031_72_2_C929887C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swimming 6031_72_2		1512656
+	104848027	CRWD_Crowd, Children_BAS03_01_01	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\CRWD_Crowd, Children_BAS03_01_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRWD_Crowd, Children_BAS03_01_01		1923136
+	129217575	Tuning Fork	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Tuning Fork_A26CEE9D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tuning Fork		3331796
+	142486641	WTR_Underwater_US03_85_01	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\WTR_Underwater_US03_85_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\WTR_Underwater_US03_85_01		5713984
+	179827128	WaterOcean 6070_08	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\WaterOcean 6070_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterOcean 6070_08		11993152
+	680295749	Intro Rhodes	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Intro Rhodes_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intro Rhodes		2368512
+	691105329	Swimming 6057_97_1	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Swimming 6057_97_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swimming 6057_97_1		553024
+	850040356	Clock	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Clock_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Clock		1606164
+	873380439	WaterUnderwater 6035_42	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\WaterUnderwater 6035_42_4CD45667.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterUnderwater 6035_42		1130456
+	933849837	Waves On Mars	C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Waves On Mars_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Waves On Mars		4008844
 
