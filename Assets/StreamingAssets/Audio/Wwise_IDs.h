@@ -14,9 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID LAUGHING_POINTING = 4193801021U;
+        static const AkUniqueID RHODES_PIANO = 2900988856U;
         static const AkUniqueID SEAGULLS_START = 1403647256U;
         static const AkUniqueID SEAGULLS_STOP = 3236452260U;
         static const AkUniqueID SUBMERGE = 1740993339U;
+        static const AkUniqueID UNDER_WATER = 447521081U;
     } // namespace EVENTS
 
     namespace BANKS

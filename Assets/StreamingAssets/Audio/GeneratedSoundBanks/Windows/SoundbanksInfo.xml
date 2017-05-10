@@ -22,9 +22,11 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing" MaxAttenuation="32.000000"/>
+				<Event Id="2900988856" Name="Rhodes_Piano" ObjectPath="\Events\Default Work Unit\Rhodes_Piano"/>
 				<Event Id="1403647256" Name="Seagulls_Start" ObjectPath="\Events\Default Work Unit\Seagulls_Start"/>
 				<Event Id="3236452260" Name="Seagulls_Stop" ObjectPath="\Events\Default Work Unit\Seagulls_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="1740993339" Name="Submerge" ObjectPath="\Events\Default Work Unit\Submerge"/>
+				<Event Id="447521081" Name="Under_Water" ObjectPath="\Events\Default Work Unit\Under_Water"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="104848027" Language="SFX">
@@ -35,9 +37,17 @@
 					<ShortName>WaterOcean 6070_08.wav</ShortName>
 					<Path>SFX\WaterOcean 6070_08_9E69E797.wem</Path>
 				</File>
+				<File Id="680295749" Language="SFX">
+					<ShortName>Intro Rhodes.wav</ShortName>
+					<Path>SFX\Intro Rhodes_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="691105329" Language="SFX">
 					<ShortName>Swimming 6057_97_1.wav</ShortName>
 					<Path>SFX\Swimming 6057_97_1_9E69E797.wem</Path>
+				</File>
+				<File Id="873380439" Language="SFX">
+					<ShortName>WaterUnderwater 6035_42.wav</ShortName>
+					<Path>SFX\WaterUnderwater 6035_42_5A030355.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

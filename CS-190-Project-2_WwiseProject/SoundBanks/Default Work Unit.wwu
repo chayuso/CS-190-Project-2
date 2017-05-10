@@ -5,10 +5,12 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{DB5EC522-9CC8-4B8B-BE5D-AF97CA74DB2F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Under_Water" ID="{978E73C0-8180-44BC-9530-D634945E56E5}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Laughing_Pointing" ID="{AEFE1C6F-76A2-4619-94FB-A67AA5DF0098}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Seagulls_Start" ID="{68E8CC45-79BD-4881-8501-62D0CDB91F9B}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Seagulls_Stop" ID="{E68140FD-466A-4C4A-9A56-170BEA71CF97}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Submerge" ID="{54B954E2-E76C-4EA9-A530-8EAC0B0B8679}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Rhodes_Piano" ID="{2C2A47F4-EA9A-4F7C-BA25-BD35DDF7FC84}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

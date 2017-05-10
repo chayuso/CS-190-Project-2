@@ -1,11 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
+	447521081	Under_Water			\Default Work Unit\Under_Water	
 	1403647256	Seagulls_Start			\Default Work Unit\Seagulls_Start	
 	1740993339	Submerge			\Default Work Unit\Submerge	
+	2900988856	Rhodes_Piano			\Default Work Unit\Rhodes_Piano	
 	3236452260	Seagulls_Stop			\Default Work Unit\Seagulls_Stop	
 	4193801021	Laughing_Pointing			\Default Work Unit\Laughing_Pointing	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	104848027	CRWD_Crowd, Children_BAS03_01_01	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\CRWD_Crowd, Children_BAS03_01_01_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\CRWD_Crowd, Children_BAS03_01_01		1923136
 	179827128	WaterOcean 6070_08	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\WaterOcean 6070_08_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterOcean 6070_08		11993152
+	680295749	Intro Rhodes	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Intro Rhodes_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intro Rhodes		2368512
 	691105329	Swimming 6057_97_1	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\Swimming 6057_97_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Swimming 6057_97_1		553024
+	873380439	WaterUnderwater 6035_42	C:\Users\Ryan\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\.cache\Windows\SFX\WaterUnderwater 6035_42_5A030355.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterUnderwater 6035_42		1130456
 

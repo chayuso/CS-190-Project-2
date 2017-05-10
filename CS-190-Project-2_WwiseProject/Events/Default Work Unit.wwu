@@ -47,6 +47,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Rhodes_Piano" ID="{2C2A47F4-EA9A-4F7C-BA25-BD35DDF7FC84}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E9E1B9AF-9DE8-4E1F-A378-1ED028A6A55B}" ShortID="583424765" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8677C328-0EF8-47E8-9EB2-17D73B64F7E5}" Global="false">
+									<ObjectRef Name="Intro Rhodes" ID="{9F3340D1-45FB-4F87-874F-44C0188A1203}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Under_Water" ID="{978E73C0-8180-44BC-9530-D634945E56E5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7280D84D-4221-4E75-AFC2-A9C0CA2F0003}" ShortID="481684485" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8E1EE90E-D66B-4781-8F52-6112B232C22B}" Global="false">
+									<ObjectRef Name="WaterUnderwater 6035_42" ID="{9030532C-5F0C-4673-B42A-2612466832C0}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

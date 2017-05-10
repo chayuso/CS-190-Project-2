@@ -20,6 +20,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="DAAAAA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="pYYlbe3BLEK0Nx4t5IYgIw=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="IsVe28ici0u+Xa+XynTbLw=="/>
+				<Property Name="Interactive Music\x64_{38926062-D1C1-4146-B49E-23BCB17F16C5} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAgGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
