@@ -21,17 +21,40 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="769541046" Name="Bubbles" ObjectPath="\Events\Default Work Unit\Bubbles"/>
+				<Event Id="3315496229" Name="Bubbles_Stop" ObjectPath="\Events\Default Work Unit\Bubbles_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="1182830809" Name="Clock" ObjectPath="\Events\Default Work Unit\Clock"/>
+				<Event Id="2828124332" Name="Clock_Stop" ObjectPath="\Events\Default Work Unit\Clock_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing" MaxAttenuation="32.000000"/>
 				<Event Id="2900988856" Name="Rhodes_Piano" ObjectPath="\Events\Default Work Unit\Rhodes_Piano"/>
+				<Event Id="3200970231" Name="Rhodes_Piano_Stop" ObjectPath="\Events\Default Work Unit\Rhodes_Piano_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="1403647256" Name="Seagulls_Start" ObjectPath="\Events\Default Work Unit\Seagulls_Start"/>
 				<Event Id="3236452260" Name="Seagulls_Stop" ObjectPath="\Events\Default Work Unit\Seagulls_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="1740993339" Name="Submerge" ObjectPath="\Events\Default Work Unit\Submerge"/>
+				<Event Id="322811350" Name="Swimming" ObjectPath="\Events\Default Work Unit\Swimming"/>
+				<Event Id="2174459141" Name="Swimming_Stop" ObjectPath="\Events\Default Work Unit\Swimming_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="3063027985" Name="Tuning_Fork" ObjectPath="\Events\Default Work Unit\Tuning_Fork" MaxAttenuation="32.000000"/>
 				<Event Id="447521081" Name="Under_Water" ObjectPath="\Events\Default Work Unit\Under_Water"/>
+				<Event Id="15032524" Name="Under_Water_Stop" ObjectPath="\Events\Default Work Unit\Under_Water_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="1672957575" Name="Warped_Waves" ObjectPath="\Events\Default Work Unit\Warped_Waves"/>
+				<Event Id="1052006018" Name="Warped_Waves_Stop" ObjectPath="\Events\Default Work Unit\Warped_Waves_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="2543201" Language="SFX">
+					<ShortName>Swimming 6031_72_2.wav</ShortName>
+					<Path>SFX\Swimming 6031_72_2_1F035067.wem</Path>
+				</File>
 				<File Id="104848027" Language="SFX">
 					<ShortName>CRWD_Crowd, Children_BAS03_01_01.wav</ShortName>
 					<Path>SFX\CRWD_Crowd, Children_BAS03_01_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="129217575" Language="SFX">
+					<ShortName>Tuning Fork.wav</ShortName>
+					<Path>SFX\Tuning Fork_E109B45E.wem</Path>
+				</File>
+				<File Id="142486641" Language="SFX">
+					<ShortName>WTR_Underwater_US03_85_01.wav</ShortName>
+					<Path>SFX\WTR_Underwater_US03_85_01_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="179827128" Language="SFX">
 					<ShortName>WaterOcean 6070_08.wav</ShortName>
@@ -45,9 +68,17 @@
 					<ShortName>Swimming 6057_97_1.wav</ShortName>
 					<Path>SFX\Swimming 6057_97_1_9E69E797.wem</Path>
 				</File>
+				<File Id="850040356" Language="SFX">
+					<ShortName>Clock.wav</ShortName>
+					<Path>SFX\Clock_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="873380439" Language="SFX">
 					<ShortName>WaterUnderwater 6035_42.wav</ShortName>
 					<Path>SFX\WaterUnderwater 6035_42_5A030355.wem</Path>
+				</File>
+				<File Id="933849837" Language="SFX">
+					<ShortName>Waves On Mars.wav</ShortName>
+					<Path>SFX\Waves On Mars_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

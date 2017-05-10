@@ -99,6 +99,14 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Clock" ID="{C39AC4E5-8D1C-4661-9F0B-98FCCB2D9FDC}" ShortID="417801237" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
@@ -529,6 +537,14 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Swimming 6031_72_2" ID="{24BDA1D8-D83F-4DC6-92DE-ABCC3D4D6B8E}" ShortID="78361497" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
@@ -539,6 +555,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Swimming 6031_72_2" ID="{73FD332F-2D77-4BAB-AEFD-B79CBD628E5C}" ShortID="2543201">
+							<PropertyList>
+								<Property Name="TrimBegin" Type="Real64" Value="3.12432782636864"/>
+								<Property Name="TrimEnd" Type="Real64" Value="11.6991253644315"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Swimming 6031_72_2.wav</AudioFile>
 						</AudioFileSource>
@@ -586,7 +606,68 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Tuning Fork" ID="{FE26413B-31BA-4FF6-B883-162147E87493}" ShortID="396378645" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{D0FF1E88-795B-4877-A07D-A53D7B281362}" ShortID="795036764">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="32"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{9F2869C3-3CCE-4187-AB8A-5EC285992CEB}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>18.3873024</XPos>
+															<YPos>-11.94706</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>32</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
 						</Reference>
@@ -596,6 +677,12 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Tuning Fork" ID="{727B06BE-6590-4FAF-A190-13CCDD361D96}" ShortID="129217575">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="4.66472284226196E-02"/>
+								<Property Name="FadeInShape" Type="int16" Value="8"/>
+								<Property Name="TrimBegin" Type="Real64" Value="17.3061217447917"/>
+								<Property Name="TrimEnd" Type="Real64" Value="34.658890718006"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Tuning Fork.wav</AudioFile>
 						</AudioFileSource>
@@ -695,6 +782,14 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Waves On Mars" ID="{90CA98A8-BC3C-4C3C-A209-0E5407CA0EED}" ShortID="930148088" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
@@ -714,6 +809,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="WTR_Underwater_US03_85_01" ID="{C2AB53BF-40EF-4129-AD54-7362045AB608}" ShortID="319056911" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>

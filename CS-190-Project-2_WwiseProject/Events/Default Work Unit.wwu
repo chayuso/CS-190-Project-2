@@ -69,6 +69,127 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Bubbles" ID="{FA78459B-CFB9-465C-B626-08F2BEB1A17C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{69177AA6-F563-4298-B801-0AA9B14B5AAD}" ShortID="898721694" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4778A10D-A78C-4660-934D-0AC7864AE2D7}" Global="false">
+									<ObjectRef Name="WTR_Underwater_US03_85_01" ID="{C2AB53BF-40EF-4129-AD54-7362045AB608}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Rhodes_Piano_Stop" ID="{4200B799-3903-472F-8218-F35A59EF2C31}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3092501D-E535-4377-900B-634A33B06F38}" ShortID="881650256" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{5596ECF4-959B-4634-BDB3-91CA669FA44C}" Global="true">
+									<ObjectRef Name="Intro Rhodes" ID="{9F3340D1-45FB-4F87-874F-44C0188A1203}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Under_Water_Stop" ID="{D6D44794-816E-4465-982A-123D45FFB1BC}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{C72BB47A-F791-4A89-86AF-EBE8DEC58661}" ShortID="199286169" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{FA22B0DF-D880-4221-960B-A62619616E1B}" Global="true">
+									<ObjectRef Name="WaterUnderwater 6035_42" ID="{9030532C-5F0C-4673-B42A-2612466832C0}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bubbles_Stop" ID="{6E7828D6-D0B3-4325-9B53-23688ED0E96E}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{6DB62BF5-FCF4-4B02-850D-9DAE4D71E4EF}" ShortID="499742848" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{E23EA0EF-41B8-4CFC-9863-B0906EB6CCDE}" Global="true">
+									<ObjectRef Name="WTR_Underwater_US03_85_01" ID="{C2AB53BF-40EF-4129-AD54-7362045AB608}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Clock" ID="{12C2E1B2-4530-47A1-A9C1-8F4DF995F671}">
+					<ChildrenList>
+						<Action Name="Play" ID="{72FFE78B-1E22-490B-A788-3E22A37949EA}" ShortID="474969756" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D885CBFC-B008-4695-A590-CA676D2E0694}" Global="false">
+									<ObjectRef Name="Clock" ID="{C39AC4E5-8D1C-4661-9F0B-98FCCB2D9FDC}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Clock_Stop" ID="{99814681-E293-4D4E-B48A-C7DA3CD6C3F9}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{3348878F-07E5-443F-9F35-5953FC95AA06}" ShortID="509606610" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{17275658-0588-43D8-8CC9-8A6E2032375C}" Global="true">
+									<ObjectRef Name="Clock" ID="{C39AC4E5-8D1C-4661-9F0B-98FCCB2D9FDC}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Warped_Waves" ID="{3E19EEAE-35F2-4A80-A57D-4C0F58211DF3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AD0DE17A-E150-4F4B-B8AA-5660ECEFA11A}" ShortID="693930993" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8D0D72BB-AEF2-4629-98F4-1F6B96822EF5}" Global="false">
+									<ObjectRef Name="Waves On Mars" ID="{90CA98A8-BC3C-4C3C-A209-0E5407CA0EED}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Warped_Waves_Stop" ID="{64EDCAFF-3599-483A-839A-B81BA919A5F8}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{8CEB5753-4DE8-4092-BB96-BE0B42CCAF28}" ShortID="1062107618" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{E1B49045-531E-4645-9F8C-4A0E62F58334}" Global="true">
+									<ObjectRef Name="Waves On Mars" ID="{90CA98A8-BC3C-4C3C-A209-0E5407CA0EED}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Swimming" ID="{8D4423A3-84D3-4D8E-B3A2-0DDA0559CD7A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9D061975-D41D-49A6-BD40-D2D6EC77790A}" ShortID="22525994" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{67D0E8E7-E2DB-4B34-9BC1-4F2861891BB1}" Global="false">
+									<ObjectRef Name="Swimming 6031_72_2" ID="{24BDA1D8-D83F-4DC6-92DE-ABCC3D4D6B8E}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Swimming_Stop" ID="{ACAD2579-780A-4C81-B35E-2558209619EF}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{EE6481DC-FC02-4A6E-AE86-B197E4EAD704}" ShortID="1043148840" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{58134265-1608-4104-86D8-BB3DA2621472}" Global="true">
+									<ObjectRef Name="Swimming 6031_72_2" ID="{24BDA1D8-D83F-4DC6-92DE-ABCC3D4D6B8E}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tuning_Fork" ID="{5F4A982C-2FF9-4BF3-B84A-13D113B65CC0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3097963F-7A75-4035-A073-5838C1BAC16B}" ShortID="983317181" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3800E6BB-45EA-4942-89E6-5F8561761EA4}" Global="false">
+									<ObjectRef Name="Tuning Fork" ID="{FE26413B-31BA-4FF6-B883-162147E87493}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
