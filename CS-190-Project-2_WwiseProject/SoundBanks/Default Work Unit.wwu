@@ -29,11 +29,11 @@
 						<ObjectRef Name="Swimming_Stop" ID="{ACAD2579-780A-4C81-B35E-2558209619EF}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ButtonPress" ID="{895F9FD1-0ED1-4D1E-8EE0-2195FAEEE49B}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Clock_Stop" ID="{99814681-E293-4D4E-B48A-C7DA3CD6C3F9}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Key_Glow_Stop" ID="{62FFC434-FBA8-4D61-9271-595ACE70A271}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Swimming" ID="{8D4423A3-84D3-4D8E-B3A2-0DDA0559CD7A}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ShotBox" ID="{677809AE-C371-4DB8-AA0E-1FA2E548DC8F}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Submerge" ID="{54B954E2-E76C-4EA9-A530-8EAC0B0B8679}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DoorUnlock" ID="{97AD58A9-FA25-4EE7-B053-47FFA15A0FE3}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BoxHumStop" ID="{99547AE5-345C-4F3F-8908-941AF3E58ECE}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rhodes_Piano" ID="{2C2A47F4-EA9A-4F7C-BA25-BD35DDF7FC84}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
