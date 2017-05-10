@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="KeyGlow" ID="{66924B3B-E2B1-4135-83BB-F38A26C37478}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Bubbles_Stop" ID="{6E7828D6-D0B3-4325-9B53-23688ED0E96E}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="KeyGlowStop" ID="{8470BA52-DA8E-43C1-8661-7B3DFADB444C}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Under_Water_Stop" ID="{D6D44794-816E-4465-982A-123D45FFB1BC}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Under_Water" ID="{978E73C0-8180-44BC-9530-D634945E56E5}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BoxHum" ID="{89089B49-157B-44FB-987A-C68B37F8E4C6}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>

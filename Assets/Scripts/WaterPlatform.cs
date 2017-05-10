@@ -28,6 +28,7 @@ public class WaterPlatform : MonoBehaviour {
         {
             if (colenam.Substring(0, 14) == "TopMovingBlock")
             {
+                col.gameObject.GetComponent<CustomTrigger>().Hit();
                 Destroy(col.gameObject);
                 spawnTopMovingBlock(TopBlockSpawn);
             }

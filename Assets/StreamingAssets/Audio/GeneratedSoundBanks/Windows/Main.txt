@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1182830809	Clock			\Default Work Unit\Clock	
 	1403647256	Seagulls_Start			\Default Work Unit\Seagulls_Start	
 	1553818165	DoorUnlock			\Default Work Unit\DoorUnlock	
+	1569707209	KeyGlowStop			\Default Work Unit\KeyGlowStop	
 	1672957575	Warped_Waves			\Default Work Unit\Warped_Waves	
 	1740993339	Submerge			\Default Work Unit\Submerge	
 	2174459141	Swimming_Stop			\Default Work Unit\Swimming_Stop	
