@@ -344,6 +344,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="BeachShoreStop" ID="{0D90AC63-BBA1-417F-9539-D0EA3FA8574B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{1C91E39A-C5A7-4E5B-A3E2-4291CA8D3E1F}" ShortID="1054258247" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{6125BB72-2055-48BF-AE3A-6D511B2AD33A}" Global="true">
+									<ObjectRef Name="WTR_Water, Lake_IMM06_18_01" ID="{0D1C8449-6D44-4DEE-8FD6-9C5CAD9E452E}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
