@@ -35,6 +35,7 @@
 				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death"/>
 				<Event Id="1553818165" Name="DoorUnlock" ObjectPath="\Events\Default Work Unit\DoorUnlock"/>
 				<Event Id="2478083601" Name="KeyGlow" ObjectPath="\Events\Default Work Unit\KeyGlow" MaxAttenuation="15.000000"/>
+				<Event Id="1569707209" Name="KeyGlowStop" ObjectPath="\Events\Default Work Unit\KeyGlowStop" MaxAttenuation="0.000000"/>
 				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing" MaxAttenuation="38.000000"/>
 				<Event Id="2900988856" Name="Rhodes_Piano" ObjectPath="\Events\Default Work Unit\Rhodes_Piano"/>
 				<Event Id="3200970231" Name="Rhodes_Piano_Stop" ObjectPath="\Events\Default Work Unit\Rhodes_Piano_Stop" MaxAttenuation="0.000000"/>

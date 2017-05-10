@@ -18,6 +18,7 @@ public class Collectable : MonoBehaviour {
             gameObject.GetComponent<BoxCollider>().enabled = false;
             gameObject.GetComponent<Light>().enabled = false;
             GameState.CollectedItems++;
+            gameObject.GetComponent<CustomTrigger>().Hit();
         }
     }
 }

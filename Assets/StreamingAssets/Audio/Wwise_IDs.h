@@ -27,6 +27,7 @@ namespace AK
         static const AkUniqueID DEATH = 779278001U;
         static const AkUniqueID DOORUNLOCK = 1553818165U;
         static const AkUniqueID KEYGLOW = 2478083601U;
+        static const AkUniqueID KEYGLOWSTOP = 1569707209U;
         static const AkUniqueID LAUGHING_POINTING = 4193801021U;
         static const AkUniqueID RHODES_PIANO = 2900988856U;
         static const AkUniqueID RHODES_PIANO_STOP = 3200970231U;

@@ -15,6 +15,7 @@ public class KeyPickup : MonoBehaviour {
             Door.GetComponent<BoxCollider>().enabled = false;
             Key.GetComponent<MeshRenderer>().enabled = false;
             gameObject.GetComponent<BoxCollider>().enabled = false;
+            gameObject.GetComponent<CustomTrigger>().Hit();
         }
     }
 }

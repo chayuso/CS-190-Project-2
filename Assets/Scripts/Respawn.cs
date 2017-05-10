@@ -34,6 +34,7 @@ public class Respawn : MonoBehaviour {
         {
             if (colenam.Substring(0, 11) == "MovingBlock")
             {
+                col.gameObject.GetComponent<CustomTrigger>().Hit();
                 Destroy(col.gameObject);
                 spawnMovingBlock(BlockSpawn);
             }
