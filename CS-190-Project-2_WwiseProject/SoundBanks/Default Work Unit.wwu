@@ -34,7 +34,6 @@
 						<ObjectRef Name="ShotBox" ID="{677809AE-C371-4DB8-AA0E-1FA2E548DC8F}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Submerge" ID="{54B954E2-E76C-4EA9-A530-8EAC0B0B8679}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DoorUnlock" ID="{97AD58A9-FA25-4EE7-B053-47FFA15A0FE3}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="BoxHumStop" ID="{99547AE5-345C-4F3F-8908-941AF3E58ECE}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rhodes_Piano" ID="{2C2A47F4-EA9A-4F7C-BA25-BD35DDF7FC84}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

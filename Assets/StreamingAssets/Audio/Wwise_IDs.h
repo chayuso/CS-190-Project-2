@@ -15,7 +15,6 @@ namespace AK
     {
         static const AkUniqueID BEACHSHORE = 2770602537U;
         static const AkUniqueID BOXHUM = 3311800026U;
-        static const AkUniqueID BOXHUMSTOP = 2540750466U;
         static const AkUniqueID BUBBLES = 769541046U;
         static const AkUniqueID BUBBLES_STOP = 3315496229U;
         static const AkUniqueID BUTTONPRESS = 317641954U;

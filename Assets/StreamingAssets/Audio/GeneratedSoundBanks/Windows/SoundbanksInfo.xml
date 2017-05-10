@@ -23,7 +23,6 @@
 			<IncludedEvents>
 				<Event Id="2770602537" Name="BeachShore" ObjectPath="\Events\Default Work Unit\BeachShore"/>
 				<Event Id="3311800026" Name="BoxHum" ObjectPath="\Events\Default Work Unit\BoxHum" MaxAttenuation="30.000000"/>
-				<Event Id="2540750466" Name="BoxHumStop" ObjectPath="\Events\Default Work Unit\BoxHumStop" MaxAttenuation="0.000000"/>
 				<Event Id="769541046" Name="Bubbles" ObjectPath="\Events\Default Work Unit\Bubbles"/>
 				<Event Id="3315496229" Name="Bubbles_Stop" ObjectPath="\Events\Default Work Unit\Bubbles_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="317641954" Name="ButtonPress" ObjectPath="\Events\Default Work Unit\ButtonPress"/>
@@ -102,6 +101,10 @@
 					<ShortName>159402__noirenex__overheadexplosion.wav</ShortName>
 					<Path>SFX\159402__noirenex__overheadexplosion_9E69E797.wem</Path>
 				</File>
+				<File Id="470035627" Language="SFX">
+					<ShortName>IndustryVentilation 6078_49.wav</ShortName>
+					<Path>SFX\IndustryVentilation 6078_49_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="511201451" Language="SFX">
 					<ShortName>FootstepsDeck 6016_78_3.wav</ShortName>
 					<Path>SFX\FootstepsDeck 6016_78_3_9E69E797.wem</Path>
@@ -117,10 +120,6 @@
 				<File Id="691105329" Language="SFX">
 					<ShortName>Swimming 6057_97_1.wav</ShortName>
 					<Path>SFX\Swimming 6057_97_1_9E69E797.wem</Path>
-				</File>
-				<File Id="729280094" Language="SFX">
-					<ShortName>39048__ls__sparkles.wav</ShortName>
-					<Path>SFX\39048__ls__sparkles_4B8CC0C5.wem</Path>
 				</File>
 				<File Id="799487905" Language="SFX">
 					<ShortName>FootstepsDeck 6016_78_4.wav</ShortName>

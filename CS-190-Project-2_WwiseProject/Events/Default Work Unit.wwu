@@ -283,7 +283,7 @@
 						<Action Name="Play" ID="{18CC8588-E466-452F-84E5-032D29D3C856}" ShortID="23992354" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{A610ECB9-9248-4AAB-82A8-82D196D681E7}" Global="false">
-									<ObjectRef Name="39048__ls__sparkles" ID="{05BCECF5-39EB-4530-81ED-B8FA1AEBBA46}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+									<ObjectRef Name="IndustryVentilation 6078_49" ID="{E328BA3F-2E40-4F09-B351-E916D168C822}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -322,12 +322,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="BoxHumStop" ID="{99547AE5-345C-4F3F-8908-941AF3E58ECE}">
+				<Event Name="Key_Glow_Stop" ID="{62FFC434-FBA8-4D61-9271-595ACE70A271}">
 					<ChildrenList>
-						<Action Name="Stop" ID="{444DEF45-5426-4BAD-9CCC-F392E4D54847}" ShortID="1031261217" Type="Stop" Scope="One" Global="false">
+						<Action Name="Stop" ID="{23799990-4D25-4B25-B00C-115A7EC6063A}" ShortID="409458659" Type="Stop" Scope="One" Global="true">
 							<ElementList>
-								<Element ID="{2A8DB3CB-ACAD-414B-B97E-CE912FCC49F6}" Global="false">
-									<ObjectRef Name="39048__ls__sparkles" ID="{05BCECF5-39EB-4530-81ED-B8FA1AEBBA46}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								<Element ID="{EB16755B-0BB6-43B3-A82C-8E90013B21A0}" Global="true">
+									<ObjectRef Name="344534__newagesoup__electric-cicadas02" ID="{6E6C3FE2-B20E-473C-AA70-8CBB22234038}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
 								</Element>
 							</ElementList>
 						</Action>
