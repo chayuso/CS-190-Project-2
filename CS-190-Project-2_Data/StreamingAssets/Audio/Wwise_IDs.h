@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BEACHSHORE = 2770602537U;
+        static const AkUniqueID BEACHSHORESTOP = 1265591761U;
         static const AkUniqueID BOXHUM = 3311800026U;
         static const AkUniqueID BOXHUMSTOP = 2540750466U;
         static const AkUniqueID BUBBLES = 769541046U;

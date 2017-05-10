@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	779278001	Death			\Default Work Unit\Death	
 	1052006018	Warped_Waves_Stop			\Default Work Unit\Warped_Waves_Stop	
 	1182830809	Clock			\Default Work Unit\Clock	
+	1265591761	BeachShoreStop			\Default Work Unit\BeachShoreStop	
 	1403647256	Seagulls_Start			\Default Work Unit\Seagulls_Start	
 	1553818165	DoorUnlock			\Default Work Unit\DoorUnlock	
 	1569707209	KeyGlowStop			\Default Work Unit\KeyGlowStop	

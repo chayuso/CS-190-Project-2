@@ -22,6 +22,7 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2770602537" Name="BeachShore" ObjectPath="\Events\Default Work Unit\BeachShore"/>
+				<Event Id="1265591761" Name="BeachShoreStop" ObjectPath="\Events\Default Work Unit\BeachShoreStop" MaxAttenuation="0.000000"/>
 				<Event Id="3311800026" Name="BoxHum" ObjectPath="\Events\Default Work Unit\BoxHum" MaxAttenuation="30.000000"/>
 				<Event Id="2540750466" Name="BoxHumStop" ObjectPath="\Events\Default Work Unit\BoxHumStop" MaxAttenuation="0.000000"/>
 				<Event Id="769541046" Name="Bubbles" ObjectPath="\Events\Default Work Unit\Bubbles"/>
@@ -39,7 +40,7 @@
 				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing" MaxAttenuation="38.000000"/>
 				<Event Id="2900988856" Name="Rhodes_Piano" ObjectPath="\Events\Default Work Unit\Rhodes_Piano"/>
 				<Event Id="3200970231" Name="Rhodes_Piano_Stop" ObjectPath="\Events\Default Work Unit\Rhodes_Piano_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="1403647256" Name="Seagulls_Start" ObjectPath="\Events\Default Work Unit\Seagulls_Start" MaxAttenuation="100.000000"/>
+				<Event Id="1403647256" Name="Seagulls_Start" ObjectPath="\Events\Default Work Unit\Seagulls_Start" MaxAttenuation="30.000000"/>
 				<Event Id="3236452260" Name="Seagulls_Stop" ObjectPath="\Events\Default Work Unit\Seagulls_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="3978382400" Name="ShotBox" ObjectPath="\Events\Default Work Unit\ShotBox"/>
 				<Event Id="1740993339" Name="Submerge" ObjectPath="\Events\Default Work Unit\Submerge"/>

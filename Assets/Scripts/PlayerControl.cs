@@ -15,6 +15,7 @@ public class PlayerControl : MonoBehaviour {
     private Quaternion initRotation;
     private Quaternion targetRotation;
     public float x;
+    private float lastX;
 
     private GameState GameState;
     void Start()
@@ -26,14 +27,18 @@ public class PlayerControl : MonoBehaviour {
 
         targetRotation = initRotation;
         target.transform.rotation = targetRotation;
-
+        lastX = Person.transform.position.z-4;
     }
 
     void Update()
     {
             target.transform.rotation = targetRotation;
             Person.transform.rotation = Quaternion.Slerp(Person.transform.rotation, target.transform.rotation, smooth * Time.deltaTime);
-
+        if ((lastX < Person.transform.position.z-4|| lastX > Person.transform.position.z+4)&&GameState.canJump)
+        {
+            lastX = Person.transform.position.z;
+            gameObject.GetComponent<CustomTrigger>().Hit();
+        }
         if (P1RB.velocity.y <= 0)
         {
             GameState.jumpThroughPlat = false;
@@ -67,10 +72,11 @@ public class PlayerControl : MonoBehaviour {
                 {
                     ASM1.SetBool("Running", false);
                 }
-                if (!(Input.GetKey(KeyCode.D) 
-                || Input.GetKey(KeyCode.A)))
-                { P1RB.transform.Translate(0, 0, x); }
-            }
+            
+            if (!(Input.GetKey(KeyCode.D) 
+            || Input.GetKey(KeyCode.A)))
+            { P1RB.transform.Translate(0, 0, x); }
+        }
             else
             {
                 ASM1.SetBool("Running", false);
@@ -114,14 +120,24 @@ public class PlayerControl : MonoBehaviour {
         {
             if (!(Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.RightArrow)))
             {
+                if (GameState.canJump)
+                {
+                    lastX = Person.transform.position.z;
+                    gameObject.GetComponent<CustomTrigger>().Hit();
+                }
                 Direction = "backward";
                 targetRotation = Quaternion.LookRotation(-target.transform.forward, Vector3.up);
             }
         }
-        if (Direction == "backward" &&  Input.GetKey(KeyCode.RightArrow))
+        if (Direction == "backward" && Input.GetKey(KeyCode.RightArrow))
         {
             if (!(Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.RightArrow)))
             {
+                if (GameState.canJump)
+                {
+                    lastX = Person.transform.position.z;
+                    gameObject.GetComponent<CustomTrigger>().Hit();
+                }    
                 Direction = "forward";
                 targetRotation = Quaternion.LookRotation(-target.transform.forward, Vector3.up);
             }
