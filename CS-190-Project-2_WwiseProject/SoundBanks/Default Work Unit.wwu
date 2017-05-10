@@ -5,22 +5,34 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{DB5EC522-9CC8-4B8B-BE5D-AF97CA74DB2F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="KeyGlow" ID="{66924B3B-E2B1-4135-83BB-F38A26C37478}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Bubbles_Stop" ID="{6E7828D6-D0B3-4325-9B53-23688ED0E96E}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Under_Water_Stop" ID="{D6D44794-816E-4465-982A-123D45FFB1BC}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Under_Water" ID="{978E73C0-8180-44BC-9530-D634945E56E5}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BoxHum" ID="{89089B49-157B-44FB-987A-C68B37F8E4C6}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CreakRight" ID="{A3333AC6-6A6C-4551-86C2-D5F2A6CD0E95}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Laughing_Pointing" ID="{AEFE1C6F-76A2-4619-94FB-A67AA5DF0098}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Bubbles" ID="{FA78459B-CFB9-465C-B626-08F2BEB1A17C}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CreakLeft" ID="{3DD4040E-ED51-46DF-AE0E-72FA2D70F15D}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rhodes_Piano_Stop" ID="{4200B799-3903-472F-8218-F35A59EF2C31}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Clock" ID="{12C2E1B2-4530-47A1-A9C1-8F4DF995F671}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Warped_Waves_Stop" ID="{64EDCAFF-3599-483A-839A-B81BA919A5F8}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="WalkStep" ID="{5B90CC5D-C34D-485B-BB6A-5A83C03B005D}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Seagulls_Start" ID="{68E8CC45-79BD-4881-8501-62D0CDB91F9B}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BeachShore" ID="{611A3216-A8AC-49C2-9058-8A046B4857CD}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Collect" ID="{3656927E-A252-4A22-A47C-944C6E4D914D}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Warped_Waves" ID="{3E19EEAE-35F2-4A80-A57D-4C0F58211DF3}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Death" ID="{095E08C1-375C-4B7E-B835-7B4F5DC617E2}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Tuning_Fork" ID="{5F4A982C-2FF9-4BF3-B84A-13D113B65CC0}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Walking" ID="{892CFCD3-E833-4C3D-99EA-E97DB8EB9DE2}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Seagulls_Stop" ID="{E68140FD-466A-4C4A-9A56-170BEA71CF97}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Swimming_Stop" ID="{ACAD2579-780A-4C81-B35E-2558209619EF}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ButtonPress" ID="{895F9FD1-0ED1-4D1E-8EE0-2195FAEEE49B}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Clock_Stop" ID="{99814681-E293-4D4E-B48A-C7DA3CD6C3F9}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Swimming" ID="{8D4423A3-84D3-4D8E-B3A2-0DDA0559CD7A}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ShotBox" ID="{677809AE-C371-4DB8-AA0E-1FA2E548DC8F}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Submerge" ID="{54B954E2-E76C-4EA9-A530-8EAC0B0B8679}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DoorUnlock" ID="{97AD58A9-FA25-4EE7-B053-47FFA15A0FE3}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rhodes_Piano" ID="{2C2A47F4-EA9A-4F7C-BA25-BD35DDF7FC84}" WorkUnitID="{85EFDBCB-C83A-4E63-BCAB-FB8C76EC4BB8}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

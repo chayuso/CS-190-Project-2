@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="75">
-	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3439339880" DateHigh="30591278"/>
+	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2194147445" DateHigh="30591297"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1941680384" DateHigh="30589083"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1941785480" DateHigh="30589083"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="2887647138" DateHigh="30589083"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1941725416" DateHigh="30589083"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1941765568" DateHigh="30589083"/>
-	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\CS-190-Project-2_WwiseProject.Christopher.wsettings" DateLow="3331860011" DateHigh="30591278"/>
+	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\CS-190-Project-2_WwiseProject.Christopher.wsettings" DateLow="1437933385" DateHigh="30591298"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\CS-190-Project-2_WwiseProject.wproj" DateLow="776323220" DateHigh="30591139"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1941870643" DateHigh="30589083"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1942010624" DateHigh="30589083"/>
@@ -14,7 +14,7 @@
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Events\Default Work Unit.wwu" DateLow="3439464974" DateHigh="30591278"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1941990593" DateHigh="30589083"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1941565303" DateHigh="30589083"/>
-	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1942185849" DateHigh="30589083"/>
+	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2194067388" DateHigh="30591297"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1942220890" DateHigh="30589083"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1942310840" DateHigh="30589083"/>
 	<ValidationCacheItem File="C:\Users\Christopher\Documents\GitHub\CS-190-Project-2\CS-190-Project-2_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1942360890" DateHigh="30589083"/>

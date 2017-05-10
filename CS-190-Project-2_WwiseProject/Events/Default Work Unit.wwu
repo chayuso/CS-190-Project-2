@@ -190,6 +190,138 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="KeyGlow" ID="{66924B3B-E2B1-4135-83BB-F38A26C37478}">
+					<ChildrenList>
+						<Action Name="Play" ID="{043F530C-B4FC-4A02-A248-7E642A3569FB}" ShortID="918069779" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2D9E2AD8-0E08-4BA2-A85B-404A4EAEB6D3}" Global="false">
+									<ObjectRef Name="344534__newagesoup__electric-cicadas02" ID="{6E6C3FE2-B20E-473C-AA70-8CBB22234038}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Collect" ID="{3656927E-A252-4A22-A47C-944C6E4D914D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5EC94B98-B925-4712-A74F-6548F351F85C}" ShortID="320604019" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A19836DE-F4D9-4890-BF85-6FEF72ECAD2C}" Global="false">
+									<ObjectRef Name="381773__stumpbutt__retro-collect-item-sfx" ID="{CDA9D890-3469-4F80-897A-9390507FB6F5}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CreakLeft" ID="{3DD4040E-ED51-46DF-AE0E-72FA2D70F15D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C555CA1B-0D63-40E5-8256-5C5030C2E9D7}" ShortID="643485969" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{CA102F5A-6AE4-48FF-86F1-1660C667F68F}" Global="false">
+									<ObjectRef Name="CreakMetal 6074_84_1" ID="{C5A13FAB-64B2-4171-BED9-48BA16D43641}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CreakRight" ID="{A3333AC6-6A6C-4551-86C2-D5F2A6CD0E95}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B4A183C6-3B61-4901-83DA-7667C69DDAF5}" ShortID="551121139" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B0993DF9-1526-4674-BAE4-26E342FDB318}" Global="false">
+									<ObjectRef Name="CreakMetal 6074_84_2" ID="{FA734BB7-47FE-4D53-9DD2-9B14C53FA7B9}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Walking" ID="{892CFCD3-E833-4C3D-99EA-E97DB8EB9DE2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7587C3A4-9DF5-4D97-B8ED-0876A135BBDE}" ShortID="648439816" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{54969BEE-D03D-4341-9717-2C7D31E62FF9}" Global="false">
+									<ObjectRef Name="Walk" ID="{ABD7D9B2-6D30-4930-98A5-34F5A4636002}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WalkStep" ID="{5B90CC5D-C34D-485B-BB6A-5A83C03B005D}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B386F08D-DE0C-4173-8410-510A324A9EC3}" ShortID="287935050" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1B262D1A-62F3-42B3-A87F-A9B41F3B93B7}" Global="false">
+									<ObjectRef Name="WalkStep" ID="{F2C954E1-72A8-4D57-B9F5-0BAE2195EDEC}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DoorUnlock" ID="{97AD58A9-FA25-4EE7-B053-47FFA15A0FE3}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CF050EF4-132D-489F-B0BF-E918C28D6787}" ShortID="518826235" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E93386E7-1BA7-459E-8081-A961D2FC5AF5}" Global="false">
+									<ObjectRef Name="104532__skyumori__door-open-01" ID="{DEA174BD-67E6-44A3-8065-9FB8A9665C62}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ShotBox" ID="{677809AE-C371-4DB8-AA0E-1FA2E548DC8F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1A7E17DC-6203-4FED-9364-D448E2CC9D1A}" ShortID="788437095" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BD36E677-47A4-4D52-8114-A7F485C92AF0}" Global="false">
+									<ObjectRef Name="159402__noirenex__overheadexplosion" ID="{B243F865-1FE1-4CD4-A05E-78FA16B4B74D}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BoxHum" ID="{89089B49-157B-44FB-987A-C68B37F8E4C6}">
+					<ChildrenList>
+						<Action Name="Play" ID="{18CC8588-E466-452F-84E5-032D29D3C856}" ShortID="23992354" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A610ECB9-9248-4AAB-82A8-82D196D681E7}" Global="false">
+									<ObjectRef Name="IndustryVentilation 6078_49" ID="{E328BA3F-2E40-4F09-B351-E916D168C822}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ButtonPress" ID="{895F9FD1-0ED1-4D1E-8EE0-2195FAEEE49B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{67A84A1A-046F-4F67-8083-586611A66529}" ShortID="101835003" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{903ECD33-724E-4CC3-A1E6-461F20C55633}" Global="false">
+									<ObjectRef Name="219476__jarredgibb__button-05" ID="{4447F579-6F8D-406F-A45E-EC7C4714B510}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BeachShore" ID="{611A3216-A8AC-49C2-9058-8A046B4857CD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{207CB360-8E7A-45E6-8259-D274D5198BB2}" ShortID="228293286" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3588376D-A76D-4F16-A066-FE9A7CDB0927}" Global="false">
+									<ObjectRef Name="WTR_Water, Lake_IMM06_18_01" ID="{0D1C8449-6D44-4DEE-8FD6-9C5CAD9E452E}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Death" ID="{095E08C1-375C-4B7E-B835-7B4F5DC617E2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7AE62048-F5AE-483A-9FF8-5507A98A39C1}" ShortID="960200922" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{01037BC8-B5BE-4B8F-93E2-838FB01A500B}" Global="false">
+									<ObjectRef Name="Whoosh 6088_64" ID="{10C98F32-9002-457A-A439-F43777B3905E}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
