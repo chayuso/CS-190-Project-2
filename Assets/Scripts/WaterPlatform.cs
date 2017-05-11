@@ -7,7 +7,9 @@ public class WaterPlatform : MonoBehaviour {
     public GameObject Player;
     public GameObject TopBlockPrefab;
     public GameObject TopBlockSpawn;
+    public GameObject ShotBox;
     private bool inWater = false;
+
     void FixedUpdate()
     {
         if (inWater)
@@ -30,6 +32,7 @@ public class WaterPlatform : MonoBehaviour {
             {
                 col.gameObject.GetComponent<CustomTrigger>().Hit();
                 Destroy(col.gameObject);
+                ShotBox.GetComponent<CustomTrigger>().Hit();
                 spawnTopMovingBlock(TopBlockSpawn);
             }
         }

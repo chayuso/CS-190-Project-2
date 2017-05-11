@@ -14,6 +14,7 @@ public class Respawn : MonoBehaviour {
     public string colenam;
     public GameObject BlockPrefab;
     public GameObject BlockSpawn;
+    public GameObject ShotBox;
 
     void OnTriggerEnter(Collider col)
     {
@@ -29,6 +30,7 @@ public class Respawn : MonoBehaviour {
             Platform1.transform.rotation = Placement1.transform.rotation;
             Platform2.transform.rotation = Placement2.transform.rotation;
             Platform3.transform.rotation = Placement3.transform.rotation;
+            gameObject.GetComponent<CustomTrigger>().Hit();
         }
         if (colenam.Length >=11)
         {
@@ -36,6 +38,7 @@ public class Respawn : MonoBehaviour {
             {
                 col.gameObject.GetComponent<CustomTrigger>().Hit();
                 Destroy(col.gameObject);
+                ShotBox.GetComponent<CustomTrigger>().Hit();
                 spawnMovingBlock(BlockSpawn);
             }
         }    

@@ -37,7 +37,15 @@ public class PlayerControl : MonoBehaviour {
         if ((lastX < Person.transform.position.z-4|| lastX > Person.transform.position.z+4)&&GameState.canJump)
         {
             lastX = Person.transform.position.z;
-            gameObject.GetComponent<CustomTrigger>().Hit();
+            if (GameState.underwater)
+            {
+                gameObject.GetComponent<UnderwaterStepsTrigger>().Hit();
+            }
+            else
+            {
+                gameObject.GetComponent<DocksStepsTrigger>().Hit();
+            }
+            //gameObject.GetComponent<CustomTrigger>().Hit();
         }
         if (P1RB.velocity.y <= 0)
         {
@@ -100,6 +108,15 @@ public class PlayerControl : MonoBehaviour {
                 P1RB.AddRelativeForce(transform.up * jumpModifier, ForceMode.Impulse);
                 GameState.canJump = false;
                 GameState.jumpThroughPlat = true;
+                lastX = Person.transform.position.z;
+                if (GameState.underwater)
+                {
+                    gameObject.GetComponent<UnderwaterStepsTrigger>().Hit();
+                }
+                else
+                {
+                    gameObject.GetComponent<CustomTrigger>().Hit();
+                }
             }
         }
         if (Input.GetKey(KeyCode.LeftArrow)|| Input.GetKey(KeyCode.RightArrow))
@@ -123,7 +140,15 @@ public class PlayerControl : MonoBehaviour {
                 if (GameState.canJump)
                 {
                     lastX = Person.transform.position.z;
-                    gameObject.GetComponent<CustomTrigger>().Hit();
+                    if (GameState.underwater)
+                    {
+                        gameObject.GetComponent<UnderwaterStepsTrigger>().Hit();
+                    }
+                    else
+                    {
+                        gameObject.GetComponent<DocksStepsTrigger>().Hit();
+                    }
+                    //gameObject.GetComponent<CustomTrigger>().Hit();
                 }
                 Direction = "backward";
                 targetRotation = Quaternion.LookRotation(-target.transform.forward, Vector3.up);
@@ -136,7 +161,15 @@ public class PlayerControl : MonoBehaviour {
                 if (GameState.canJump)
                 {
                     lastX = Person.transform.position.z;
-                    gameObject.GetComponent<CustomTrigger>().Hit();
+                    if (GameState.underwater)
+                    {
+                        gameObject.GetComponent<UnderwaterStepsTrigger>().Hit();
+                    }
+                    else
+                    {
+                        gameObject.GetComponent<DocksStepsTrigger>().Hit();
+                    }
+                    //gameObject.GetComponent<CustomTrigger>().Hit();
                 }    
                 Direction = "forward";
                 targetRotation = Quaternion.LookRotation(-target.transform.forward, Vector3.up);

@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID BEACHSHORE = 2770602537U;
         static const AkUniqueID BEACHSHORESTOP = 1265591761U;
+        static const AkUniqueID BOAT = 1795056175U;
         static const AkUniqueID BOXHUM = 3311800026U;
         static const AkUniqueID BOXHUMSTOP = 2540750466U;
         static const AkUniqueID BUBBLES = 769541046U;
@@ -24,9 +25,15 @@ namespace AK
         static const AkUniqueID CLOCK_STOP = 2828124332U;
         static const AkUniqueID COLLECT = 2756333705U;
         static const AkUniqueID CREAKLEFT = 3795958912U;
+        static const AkUniqueID CREAKLEFTSTOP = 4118992264U;
         static const AkUniqueID CREAKRIGHT = 3969533847U;
+        static const AkUniqueID CREAKRIGHTSTOP = 2085922199U;
         static const AkUniqueID DEATH = 779278001U;
+        static const AkUniqueID DOCKSIMMERSION = 1966231808U;
+        static const AkUniqueID DOCKSIMMERSIONSTOP = 1913139720U;
         static const AkUniqueID DOORUNLOCK = 1553818165U;
+        static const AkUniqueID ENDSIGH = 1780850265U;
+        static const AkUniqueID JUMP = 3833651337U;
         static const AkUniqueID KEYGLOW = 2478083601U;
         static const AkUniqueID KEYGLOWSTOP = 1569707209U;
         static const AkUniqueID LAUGHING_POINTING = 4193801021U;
@@ -41,6 +48,8 @@ namespace AK
         static const AkUniqueID TUNING_FORK = 3063027985U;
         static const AkUniqueID UNDER_WATER = 447521081U;
         static const AkUniqueID UNDER_WATER_STOP = 15032524U;
+        static const AkUniqueID UNDERWATERFOOTSTEPSPLAY = 2824151805U;
+        static const AkUniqueID UNDERWATERFOOTSTEPSSTOP = 714923371U;
         static const AkUniqueID WALKING = 340271938U;
         static const AkUniqueID WALKSTEP = 4219850024U;
         static const AkUniqueID WARPED_WAVES = 1672957575U;
