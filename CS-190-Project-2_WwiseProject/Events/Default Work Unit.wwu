@@ -355,6 +355,105 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="CreakLeftStop" ID="{3E41BCC4-054D-4047-8462-23B280FCE437}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{498217CA-0CB1-4EF8-BB0B-20A0A89A04DA}" ShortID="1012272990" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{F98AB04B-A459-4766-9421-1CAA98D66D16}" Global="true">
+									<ObjectRef Name="CreakMetal 6074_84_1" ID="{C5A13FAB-64B2-4171-BED9-48BA16D43641}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CreakRightStop" ID="{0031F3BB-0DBB-44E9-B9D6-0BC0A8F7A9BE}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{EF1AEDA3-50CB-4CB7-A788-541062565680}" ShortID="351796188" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{03F39805-4C25-488D-A868-6C0A2899CF4C}" Global="true">
+									<ObjectRef Name="CreakMetal 6074_84_2" ID="{FA734BB7-47FE-4D53-9DD2-9B14C53FA7B9}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Boat" ID="{14CB87BF-E268-472A-A141-D9B8B2543D3F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4828842D-A6CA-4A4A-AC69-70FFA5C963FB}" ShortID="192734031" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{88A75111-663C-434A-A5F0-192197D61723}" Global="false">
+									<ObjectRef Name="BoatFerry 6082_33" ID="{7F9BB51B-11BA-4CCA-B2E7-1429469FA36A}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DocksImmersion" ID="{5158CCA1-8BF6-4954-909E-C86AB2627D89}">
+					<ChildrenList>
+						<Action Name="Play" ID="{65F4B66D-22B5-4E50-B795-3EEDCF49160F}" ShortID="655903747" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DA4AC7EF-76EA-4DED-B12C-72A9D06C09FB}" Global="false">
+									<ObjectRef Name="WTR_Water, Lake_IMM06_16_01" ID="{9E79FEB8-2320-4F29-A9AF-066725C24426}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DocksImmersionStop" ID="{04DD4228-7B77-42BA-A3A5-A1BD9178BEBE}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{CD04AAB8-A69A-4501-9DE6-0CCE19A6B80E}" ShortID="104605879" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{CEA5CDE1-8829-4E98-B73F-A45017B1F561}" Global="true">
+									<ObjectRef Name="WTR_Water, Lake_IMM06_16_01" ID="{9E79FEB8-2320-4F29-A9AF-066725C24426}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnderwaterFootstepsPlay" ID="{069E88BE-ADFA-4203-9379-5895D695AFC5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E493D16C-D4B0-4575-9B07-8D5166DE6F14}" ShortID="877957770" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{01974D1C-CD57-4E4F-9E5D-66028275DD51}" Global="false">
+									<ObjectRef Name="UnderwaterFootsteps" ID="{623A0D84-4617-4471-96DB-10D211299F39}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnderwaterFootstepsStop" ID="{FB57AEC2-AC73-4EB6-ABCF-B813450F9214}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{0FD6A7A6-80C8-4BC4-88CA-397044B82172}" ShortID="300218121" Type="Stop" Scope="One" Global="true">
+							<ElementList>
+								<Element ID="{48D50322-9FCA-4141-BBBD-3AE1C5792908}" Global="true">
+									<ObjectRef Name="UnderwaterFootsteps" ID="{623A0D84-4617-4471-96DB-10D211299F39}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Jump" ID="{FEAD9994-325D-4942-A6A9-E562305F154E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C3669FD4-7611-4A61-BDAC-CDD46DF9BBFB}" ShortID="861887874" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DCA46E61-4023-4225-9A4F-31137A40C511}" Global="false">
+									<ObjectRef Name="FootstepsDeck 6016_79_2" ID="{99DD3BA5-7F2A-4952-AFED-1749775E1A37}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EndSigh" ID="{2FD01A1B-5028-4A25-B959-3E6433AFB19C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B9973EF1-DD68-4C3A-93E5-BD35E88F9EF8}" ShortID="235975469" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{47FED6F1-B3E8-4DC2-BFD7-F5C61C5DCBED}" Global="false">
+									<ObjectRef Name="HUMN_Sigh, Heavy_PE13_48_01" ID="{EC2D281E-ECA1-4007-85CB-38C8ADD5DC3B}" WorkUnitID="{443B42F0-A236-4E8E-A5EB-1F5948886B51}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

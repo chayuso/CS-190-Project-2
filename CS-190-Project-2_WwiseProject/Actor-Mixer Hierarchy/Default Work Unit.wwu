@@ -42,7 +42,60 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="BoatFerry 6082_33" ID="{7F9BB51B-11BA-4CCA-B2E7-1429469FA36A}" ShortID="969764658" Type="SoundFX">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{A9406BC3-6FCA-47F8-BB6F-03BB020FE2B4}" ShortID="435647476">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="30"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{64327877-C57E-47AC-A205-9A10EC5F17D9}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>30</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
 						</Reference>
@@ -113,7 +166,7 @@
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{C4BF373C-FFC1-4750-8B46-62DFF1389BBB}" ShortID="827551943">
 									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="65"/>
+										<Property Name="RadiusMax" Type="Real64" Value="45"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -129,7 +182,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>65</XPos>
+															<XPos>45</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -331,37 +384,6 @@
 						<ActiveSource Name="footSteps" ID="{AA2ADAD5-383B-423B-8507-D04A6F7EADA1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="FootstepsConcrete 6016_08_1" ID="{305D3B0F-97F3-4436-88F4-CB1A2A7DE7D1}" ShortID="275741880" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="FootstepsConcrete 6016_08_1" ID="{C61C4AFE-9F8E-46FF-AE88-AE37DB684C65}" ShortID="116765084">
-							<Language>SFX</Language>
-							<AudioFile>FootstepsConcrete 6016_08_1.wav</AudioFile>
-						</AudioFileSource>
-						<AudioFileSource Name="WaterUnderwater 6110_43_1" ID="{E52429E7-A539-429C-A9DE-44B6FF984E09}" ShortID="879616175">
-							<Language>SFX</Language>
-							<AudioFile>WaterUnderwater 6110_43_1.wav</AudioFile>
-						</AudioFileSource>
-						<AudioFileSource Name="WaterUnderwater 6110_44_1" ID="{2DFD88B8-4315-47B4-B6E8-C67C1FDE4541}" ShortID="1007298836">
-							<Language>SFX</Language>
-							<AudioFile>WaterUnderwater 6110_44_1.wav</AudioFile>
-						</AudioFileSource>
-						<AudioFileSource Name="WaterUnderwater 6110_45_1" ID="{D92CA7C3-A2F9-40F6-8239-23359A5142D3}" ShortID="1052382169">
-							<Language>SFX</Language>
-							<AudioFile>WaterUnderwater 6110_45_1.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="FootstepsConcrete 6016_08_1" ID="{C61C4AFE-9F8E-46FF-AE88-AE37DB684C65}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="Full Drums" ID="{67124B31-B5D7-4C5D-95E6-09B3958179D3}" ShortID="662893001" Type="SoundFX">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -401,6 +423,33 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="HUMN_Sigh, Heavy_PE13_48_01" ID="{EC2D281E-ECA1-4007-85CB-38C8ADD5DC3B}" ShortID="931201006" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>28</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>200</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
@@ -1059,6 +1108,9 @@
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{E77CFC12-6F33-4BB4-9133-B1E3B4A9CB07}" ShortID="687147995">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="50"/>
+									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -1073,7 +1125,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>100</XPos>
+															<XPos>50</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -1123,6 +1175,11 @@
 				<Sound Name="WTR_Underwater_US03_85_01" ID="{C2AB53BF-40EF-4129-AD54-7362045AB608}" ShortID="319056911" Type="SoundFX">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1224,7 +1281,7 @@
 						<Property Name="PositioningType" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1439,72 +1496,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="TorchIgniter 6012_86_1" ID="{31A8AB2F-7266-4452-9DE8-32EE7A8549E3}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="WaterUnderwater 6110_43_1" ID="{D167A976-E61A-4119-8430-5F2BBE5C68E3}" ShortID="619282273" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="WaterUnderwater 6110_43_1" ID="{9755ED6C-BADB-4CEB-BE77-D5D57F0F4306}" ShortID="457504866">
-							<Language>SFX</Language>
-							<AudioFile>WaterUnderwater 6110_43_1.wav</AudioFile>
-							<ConvertedFileIDList>
-								<File ID="879616175"/>
-							</ConvertedFileIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="WaterUnderwater 6110_43_1" ID="{9755ED6C-BADB-4CEB-BE77-D5D57F0F4306}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="WaterUnderwater 6110_44_1" ID="{A6C2DD75-AF6E-49DA-BD9D-95A66AD09BAB}" ShortID="968272218" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="WaterUnderwater 6110_44_1" ID="{998DE0B9-9128-4943-AB8D-CD694102EB98}" ShortID="238235018">
-							<Language>SFX</Language>
-							<AudioFile>WaterUnderwater 6110_44_1.wav</AudioFile>
-							<ConvertedFileIDList>
-								<File ID="1007298836"/>
-							</ConvertedFileIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="WaterUnderwater 6110_44_1" ID="{998DE0B9-9128-4943-AB8D-CD694102EB98}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="WaterUnderwater 6110_45_1" ID="{492F1899-3525-4B48-9678-801ED5C24F90}" ShortID="384965818" Type="SoundFX">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="WaterUnderwater 6110_45_1" ID="{D03BAF66-0F67-4255-B230-32D66EF246B1}" ShortID="287271759">
-							<Language>SFX</Language>
-							<AudioFile>WaterUnderwater 6110_45_1.wav</AudioFile>
-							<ConvertedFileIDList>
-								<File ID="1052382169"/>
-							</ConvertedFileIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="WaterUnderwater 6110_45_1" ID="{D03BAF66-0F67-4255-B230-32D66EF246B1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Whoosh 6088_64" ID="{10C98F32-9002-457A-A439-F43777B3905E}" ShortID="405854776" Type="SoundFX">
@@ -1852,6 +1843,135 @@
 								<ActiveSource Name="FootstepsDeck 6016_78_4" ID="{EB4D0AB1-290D-44E8-8FB2-F2DF8B2E7A5D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="FootstepsConcrete 6016_08_1" ID="{0E1F800F-52D8-4720-80F1-432949ABDD03}" ShortID="7821332" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsConcrete 6016_08_1" ID="{2A613846-E313-4AF4-885A-31C2619C710C}" ShortID="107476219">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsConcrete 6016_08_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="116765084"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_43_1" ID="{6BBF016B-0289-4DEA-87DB-2F4B8EA0D35F}" ShortID="801672379">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_43_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="879616175"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_44_1" ID="{BA58B273-01CD-4C49-B047-E82C05FDCFDF}" ShortID="130266366">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_44_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1007298836"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_45_1" ID="{3AF902F7-AE12-4931-A2F0-6DEFC529D78B}" ShortID="294653880">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_45_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1052382169"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsConcrete 6016_08_1" ID="{2A613846-E313-4AF4-885A-31C2619C710C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsConcrete 6016_08_01" ID="{2B04CCF5-4807-4E7E-AE34-7F6C496D828A}" ShortID="70112666" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsConcrete 6016_08_1" ID="{630E46DB-BF01-43B3-9DF3-EF03B8C87328}" ShortID="592989578">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsConcrete 6016_08_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="116765084"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_43_1" ID="{31D8CAC1-DDC2-4FF5-8525-14E3AE815350}" ShortID="649349685">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_43_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="879616175"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_44_1" ID="{35118FFF-91F1-4F62-8B91-C313ABEB1A5D}" ShortID="691023337">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_44_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1007298836"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_45_1" ID="{4223615D-3E4B-4797-A950-81E33A3C76CE}" ShortID="340152109">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_45_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1052382169"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsConcrete 6016_08_1" ID="{630E46DB-BF01-43B3-9DF3-EF03B8C87328}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FootstepsConcrete 6016_08_02" ID="{2C7DDF05-0706-48EB-B619-28BBC0389BF0}" ShortID="418213322" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsConcrete 6016_08_1" ID="{3D51A7C2-0715-417D-8E05-B7BDE9DB1EFB}" ShortID="214579023">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsConcrete 6016_08_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="116765084"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_43_1" ID="{4054D124-1D3B-4EA2-A749-0F366A37948B}" ShortID="1012459436">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_43_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="879616175"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_44_1" ID="{C10A0764-C8F3-4B21-8BF3-601648F25BD9}" ShortID="306147904">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_44_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1007298836"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_45_1" ID="{DD8EADD1-2337-4DE3-B0B3-C88BF27C5BE1}" ShortID="696893986">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_45_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1052382169"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsConcrete 6016_08_1" ID="{3D51A7C2-0715-417D-8E05-B7BDE9DB1EFB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<Playlist>
 						<ItemRef Name="FootstepsDeck 6016_78_3" ID="{6D5462F3-4BF4-4CE7-B69D-2F97CC277772}"/>
@@ -1878,7 +1998,65 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="159402__noirenex__overheadexplosion" ID="{B243F865-1FE1-4CD4-A05E-78FA16B4B74D}" ShortID="675034715" Type="SoundFX">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{857AF8B0-3123-40D1-89BB-72251B09D707}" ShortID="61571835">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="30"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{765BDDC6-AABD-4363-9FAD-DA0CDEDF08F1}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>30</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
 						</Reference>
@@ -1897,6 +2075,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="219476__jarredgibb__button-05" ID="{4447F579-6F8D-406F-A45E-EC7C4714B510}" ShortID="1067596177" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
@@ -2015,6 +2200,231 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="39048__ls__sparkles" ID="{BC815907-0658-4B64-9ADD-9CAFFA62EF61}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WTR_Water, Lake_IMM06_16_01" ID="{9E79FEB8-2320-4F29-A9AF-066725C24426}" ShortID="544075906" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{6D6C6A88-D01C-4934-9ED1-59357FBF7861}" ShortID="122212211">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{482E1B74-12A0-45A9-8A90-FB71A8A5DF27}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WTR_Water, Lake_IMM06_16_01" ID="{17DA6355-C083-4B2E-83D7-71D59E8524BD}" ShortID="662724173">
+							<Language>SFX</Language>
+							<AudioFile>WTR_Water, Lake_IMM06_16_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WTR_Water, Lake_IMM06_16_01" ID="{17DA6355-C083-4B2E-83D7-71D59E8524BD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="New Random Container" ID="{6B33FDF7-A2E5-43FA-AAAD-25A9B112B8B0}" ShortID="876037827">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FootstepsConcrete 6016_08_1" ID="{305D3B0F-97F3-4436-88F4-CB1A2A7DE7D1}" ShortID="275741880" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FootstepsConcrete 6016_08_1" ID="{C61C4AFE-9F8E-46FF-AE88-AE37DB684C65}" ShortID="116765084">
+									<Language>SFX</Language>
+									<AudioFile>FootstepsConcrete 6016_08_1.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_43_1" ID="{E52429E7-A539-429C-A9DE-44B6FF984E09}" ShortID="879616175">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_43_1.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_44_1" ID="{2DFD88B8-4315-47B4-B6E8-C67C1FDE4541}" ShortID="1007298836">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_44_1.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="WaterUnderwater 6110_45_1" ID="{D92CA7C3-A2F9-40F6-8239-23359A5142D3}" ShortID="1052382169">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_45_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FootstepsConcrete 6016_08_1" ID="{C61C4AFE-9F8E-46FF-AE88-AE37DB684C65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="UnderwaterFootsteps" ID="{623A0D84-4617-4471-96DB-10D211299F39}" ShortID="3337073">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WaterUnderwater 6110_43_1" ID="{D167A976-E61A-4119-8430-5F2BBE5C68E3}" ShortID="619282273" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WaterUnderwater 6110_43_1" ID="{9755ED6C-BADB-4CEB-BE77-D5D57F0F4306}" ShortID="457504866">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_43_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="879616175"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WaterUnderwater 6110_43_1" ID="{9755ED6C-BADB-4CEB-BE77-D5D57F0F4306}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WaterUnderwater 6110_44_1" ID="{A6C2DD75-AF6E-49DA-BD9D-95A66AD09BAB}" ShortID="968272218" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WaterUnderwater 6110_44_1" ID="{998DE0B9-9128-4943-AB8D-CD694102EB98}" ShortID="238235018">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_44_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1007298836"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WaterUnderwater 6110_44_1" ID="{998DE0B9-9128-4943-AB8D-CD694102EB98}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WaterUnderwater 6110_45_1" ID="{492F1899-3525-4B48-9678-801ED5C24F90}" ShortID="384965818" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WaterUnderwater 6110_45_1" ID="{D03BAF66-0F67-4255-B230-32D66EF246B1}" ShortID="287271759">
+									<Language>SFX</Language>
+									<AudioFile>WaterUnderwater 6110_45_1.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="1052382169"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WaterUnderwater 6110_45_1" ID="{D03BAF66-0F67-4255-B230-32D66EF246B1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="FootstepsDeck 6016_79_2" ID="{99DD3BA5-7F2A-4952-AFED-1749775E1A37}" ShortID="948856224" Type="SoundFX">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8394D15D-3096-42D7-9F59-2E7BD7604968}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AAE2FB4-96E1-482A-93E5-5DFC2D42D430}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FootstepsDeck 6016_79_2" ID="{83BE0CC4-7FC6-4885-82AB-9D8272844734}" ShortID="751291927">
+							<Language>SFX</Language>
+							<AudioFile>FootstepsDeck 6016_79_2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FootstepsDeck 6016_79_2" ID="{83BE0CC4-7FC6-4885-82AB-9D8272844734}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

@@ -23,18 +23,25 @@
 			<IncludedEvents>
 				<Event Id="2770602537" Name="BeachShore" ObjectPath="\Events\Default Work Unit\BeachShore"/>
 				<Event Id="1265591761" Name="BeachShoreStop" ObjectPath="\Events\Default Work Unit\BeachShoreStop" MaxAttenuation="0.000000"/>
+				<Event Id="1795056175" Name="Boat" ObjectPath="\Events\Default Work Unit\Boat" MaxAttenuation="30.000000"/>
 				<Event Id="3311800026" Name="BoxHum" ObjectPath="\Events\Default Work Unit\BoxHum" MaxAttenuation="30.000000"/>
 				<Event Id="2540750466" Name="BoxHumStop" ObjectPath="\Events\Default Work Unit\BoxHumStop" MaxAttenuation="0.000000"/>
 				<Event Id="769541046" Name="Bubbles" ObjectPath="\Events\Default Work Unit\Bubbles"/>
 				<Event Id="3315496229" Name="Bubbles_Stop" ObjectPath="\Events\Default Work Unit\Bubbles_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="317641954" Name="ButtonPress" ObjectPath="\Events\Default Work Unit\ButtonPress"/>
-				<Event Id="1182830809" Name="Clock" ObjectPath="\Events\Default Work Unit\Clock" MaxAttenuation="65.000000"/>
+				<Event Id="1182830809" Name="Clock" ObjectPath="\Events\Default Work Unit\Clock" MaxAttenuation="45.000000"/>
 				<Event Id="2828124332" Name="Clock_Stop" ObjectPath="\Events\Default Work Unit\Clock_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="2756333705" Name="Collect" ObjectPath="\Events\Default Work Unit\Collect"/>
 				<Event Id="3795958912" Name="CreakLeft" ObjectPath="\Events\Default Work Unit\CreakLeft" MaxAttenuation="20.000000"/>
+				<Event Id="4118992264" Name="CreakLeftStop" ObjectPath="\Events\Default Work Unit\CreakLeftStop" MaxAttenuation="0.000000"/>
 				<Event Id="3969533847" Name="CreakRight" ObjectPath="\Events\Default Work Unit\CreakRight" MaxAttenuation="20.000000"/>
+				<Event Id="2085922199" Name="CreakRightStop" ObjectPath="\Events\Default Work Unit\CreakRightStop" MaxAttenuation="0.000000"/>
 				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death"/>
+				<Event Id="1966231808" Name="DocksImmersion" ObjectPath="\Events\Default Work Unit\DocksImmersion" MaxAttenuation="100.000000"/>
+				<Event Id="1913139720" Name="DocksImmersionStop" ObjectPath="\Events\Default Work Unit\DocksImmersionStop" MaxAttenuation="0.000000"/>
 				<Event Id="1553818165" Name="DoorUnlock" ObjectPath="\Events\Default Work Unit\DoorUnlock"/>
+				<Event Id="1780850265" Name="EndSigh" ObjectPath="\Events\Default Work Unit\EndSigh"/>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump"/>
 				<Event Id="2478083601" Name="KeyGlow" ObjectPath="\Events\Default Work Unit\KeyGlow" MaxAttenuation="15.000000"/>
 				<Event Id="1569707209" Name="KeyGlowStop" ObjectPath="\Events\Default Work Unit\KeyGlowStop" MaxAttenuation="0.000000"/>
 				<Event Id="4193801021" Name="Laughing_Pointing" ObjectPath="\Events\Default Work Unit\Laughing_Pointing" MaxAttenuation="38.000000"/>
@@ -42,16 +49,18 @@
 				<Event Id="3200970231" Name="Rhodes_Piano_Stop" ObjectPath="\Events\Default Work Unit\Rhodes_Piano_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="1403647256" Name="Seagulls_Start" ObjectPath="\Events\Default Work Unit\Seagulls_Start" MaxAttenuation="30.000000"/>
 				<Event Id="3236452260" Name="Seagulls_Stop" ObjectPath="\Events\Default Work Unit\Seagulls_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="3978382400" Name="ShotBox" ObjectPath="\Events\Default Work Unit\ShotBox"/>
+				<Event Id="3978382400" Name="ShotBox" ObjectPath="\Events\Default Work Unit\ShotBox" MaxAttenuation="30.000000"/>
 				<Event Id="1740993339" Name="Submerge" ObjectPath="\Events\Default Work Unit\Submerge"/>
 				<Event Id="322811350" Name="Swimming" ObjectPath="\Events\Default Work Unit\Swimming" MaxAttenuation="100.000000"/>
 				<Event Id="2174459141" Name="Swimming_Stop" ObjectPath="\Events\Default Work Unit\Swimming_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="3063027985" Name="Tuning_Fork" ObjectPath="\Events\Default Work Unit\Tuning_Fork" MaxAttenuation="32.000000"/>
 				<Event Id="447521081" Name="Under_Water" ObjectPath="\Events\Default Work Unit\Under_Water"/>
 				<Event Id="15032524" Name="Under_Water_Stop" ObjectPath="\Events\Default Work Unit\Under_Water_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="2824151805" Name="UnderwaterFootstepsPlay" ObjectPath="\Events\Default Work Unit\UnderwaterFootstepsPlay"/>
+				<Event Id="714923371" Name="UnderwaterFootstepsStop" ObjectPath="\Events\Default Work Unit\UnderwaterFootstepsStop" MaxAttenuation="0.000000"/>
 				<Event Id="340271938" Name="Walking" ObjectPath="\Events\Default Work Unit\Walking"/>
 				<Event Id="4219850024" Name="WalkStep" ObjectPath="\Events\Default Work Unit\WalkStep"/>
-				<Event Id="1672957575" Name="Warped_Waves" ObjectPath="\Events\Default Work Unit\Warped_Waves" MaxAttenuation="100.000000"/>
+				<Event Id="1672957575" Name="Warped_Waves" ObjectPath="\Events\Default Work Unit\Warped_Waves" MaxAttenuation="50.000000"/>
 				<Event Id="1052006018" Name="Warped_Waves_Stop" ObjectPath="\Events\Default Work Unit\Warped_Waves_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -66,6 +75,10 @@
 				<File Id="104848027" Language="SFX">
 					<ShortName>CRWD_Crowd, Children_BAS03_01_01.wav</ShortName>
 					<Path>SFX\CRWD_Crowd, Children_BAS03_01_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="116765084" Language="SFX">
+					<ShortName>FootstepsConcrete 6016_08_1.wav</ShortName>
+					<Path>SFX\FootstepsConcrete 6016_08_1_9E69E797.wem</Path>
 				</File>
 				<File Id="129217575" Language="SFX">
 					<ShortName>Tuning Fork.wav</ShortName>
@@ -82,6 +95,10 @@
 				<File Id="179827128" Language="SFX">
 					<ShortName>WaterOcean 6070_08.wav</ShortName>
 					<Path>SFX\WaterOcean 6070_08_9E69E797.wem</Path>
+				</File>
+				<File Id="260583132" Language="SFX">
+					<ShortName>BoatFerry 6082_33.wav</ShortName>
+					<Path>SFX\BoatFerry 6082_33_9E69E797.wem</Path>
 				</File>
 				<File Id="363555492" Language="SFX">
 					<ShortName>219476__jarredgibb__button-05.wav</ShortName>
@@ -111,6 +128,14 @@
 					<ShortName>381773__stumpbutt__retro-collect-item-sfx.wav</ShortName>
 					<Path>SFX\381773__stumpbutt__retro-collect-item-sfx_9E69E797.wem</Path>
 				</File>
+				<File Id="662724173" Language="SFX">
+					<ShortName>WTR_Water, Lake_IMM06_16_01.wav</ShortName>
+					<Path>SFX\WTR_Water, Lake_IMM06_16_01_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="666421026" Language="SFX">
+					<ShortName>HUMN_Sigh, Heavy_PE13_48_01.wav</ShortName>
+					<Path>SFX\HUMN_Sigh, Heavy_PE13_48_01_9E69E797.wem</Path>
+				</File>
 				<File Id="680295749" Language="SFX">
 					<ShortName>Intro Rhodes.wav</ShortName>
 					<Path>SFX\Intro Rhodes_4B8CC0C5.wem</Path>
@@ -122,6 +147,10 @@
 				<File Id="729280094" Language="SFX">
 					<ShortName>39048__ls__sparkles.wav</ShortName>
 					<Path>SFX\39048__ls__sparkles_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="751291927" Language="SFX">
+					<ShortName>FootstepsDeck 6016_79_2.wav</ShortName>
+					<Path>SFX\FootstepsDeck 6016_79_2_9E69E797.wem</Path>
 				</File>
 				<File Id="799487905" Language="SFX">
 					<ShortName>FootstepsDeck 6016_78_4.wav</ShortName>
@@ -135,13 +164,25 @@
 					<ShortName>WaterUnderwater 6035_42.wav</ShortName>
 					<Path>SFX\WaterUnderwater 6035_42_4CD45667.wem</Path>
 				</File>
+				<File Id="879616175" Language="SFX">
+					<ShortName>WaterUnderwater 6110_43_1.wav</ShortName>
+					<Path>SFX\WaterUnderwater 6110_43_1_9E69E797.wem</Path>
+				</File>
 				<File Id="933849837" Language="SFX">
 					<ShortName>Waves On Mars.wav</ShortName>
 					<Path>SFX\Waves On Mars_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="1007298836" Language="SFX">
+					<ShortName>WaterUnderwater 6110_44_1.wav</ShortName>
+					<Path>SFX\WaterUnderwater 6110_44_1_9E69E797.wem</Path>
+				</File>
 				<File Id="1025220854" Language="SFX">
 					<ShortName>WTR_Water, Lake_IMM06_18_01.wav</ShortName>
 					<Path>SFX\WTR_Water, Lake_IMM06_18_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1052382169" Language="SFX">
+					<ShortName>WaterUnderwater 6110_45_1.wav</ShortName>
+					<Path>SFX\WaterUnderwater 6110_45_1_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
